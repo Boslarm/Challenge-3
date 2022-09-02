@@ -47,7 +47,7 @@ function generatePassword() {
 
 // // WHEN prompted for the length of the password
 // // THEN I choose a length of at least 8 characters and no more than 128 characters
-  var desiredPasswordLength = prompt("How long would you like your password to be? Must be netween 8-128 characters.");
+  var desiredPasswordLength = prompt("How long would you like your password to be? Must be between 8-128 characters.");
   if ((parseInt(desiredPasswordLength) >= 8) && (parseInt(desiredPasswordLength) <= 128)) {
 
   if (wantUpper) {
